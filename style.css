@@ -14,3 +14,10 @@ CSS für HTML-Elemente mit class="blog-entry"
     padding: 10px;
     margin: 10px;
 }
+
+/*
+CSS für HTML-Elemente mit id="blog-entry-1"
+*/
+#blog-entry-1{
+    background: rosybrown;
+}
