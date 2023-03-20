@@ -1,0 +1,16 @@
+/*
+CSS für alle <div>-HTML-Elemente"
+*/
+div {
+    background: antiquewhite;
+}
+
+/*
+CSS für HTML-Elemente mit class="blog-entry"
+*/
+.blog-entry {
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    margin: 10px;
+}
