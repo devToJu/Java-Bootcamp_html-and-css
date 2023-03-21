@@ -8,12 +8,10 @@ console.log(students);
 
 function changeNameOf(studentsId: string, newName: string): void {
     students.forEach(student => {
-        if (student.id === studentsId) {
-            return student.name = newName;
-        }
-
-        return student;
-    })
+        return (student.id === studentsId)
+            ? student.name = newName
+            : student;
+    });
 }
 
 
@@ -21,11 +19,9 @@ console.log();
 console.log("--------- Save changes to new Array ----------");
 
 let studentsChanged = students.map(student => {
-    if (student.id === "2") {
-        return { name: "Cherry", id: student.id };
-    }
-
-    return student;
+    return (student.id === "2")
+        ? {name: "Cherry", id: student.id}
+        : student;
 });
 
 console.log(students);
