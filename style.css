@@ -1,5 +1,6 @@
 /*
 CSS für alle <div>-HTML-Elemente"
+1 Punkt
 */
 div {
     background: antiquewhite;
@@ -7,6 +8,7 @@ div {
 
 /*
 CSS für HTML-Elemente mit class="blog-entry"
+10 Punkte
 */
 .blog-entry {
     border-style: solid;
@@ -16,8 +18,23 @@ CSS für HTML-Elemente mit class="blog-entry"
 }
 
 /*
+CSS für HTML-Elemente mit mehreren classes="blog-entry class2 class-3 ..."
+Jede Klasse zählt 10 Punkte
+10 Punkte
+*/
+.blog-entry.class2.class3.a.b.c.d.e.f.g.h.i{
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    margin: 10px;
+    background: green;
+}
+
+/*
 CSS für HTML-Elemente mit id="blog-entry-1"
+100 Punkte
 */
 #blog-entry-1{
     background: rosybrown;
 }
+
